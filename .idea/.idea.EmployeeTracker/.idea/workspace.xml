@@ -7,11 +7,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="432673dd-f10b-448f-9e3f-33ac4633336a" name="Default Changelist" comment="" />
+    <list default="true" id="432673dd-f10b-448f-9e3f-33ac4633336a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.EmployeeTracker/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EmployeeTracker.Core/Entities/Company.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EmployeeTracker.Core/Entities/Employee.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EmployeeTracker.Core/Entities/User.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.EmployeeTracker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EmployeeTracker/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.API/Controllers/WeatherForecastController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.API/EmployeeTracker.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.API/EmployeeTracker.API.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.Domain/EmployeeTracker.Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Domain/EmployeeTracker.Domain.csproj" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -32,12 +44,14 @@
     </option>
   </component>
   <component name="ProjectId" id="1wOlzVuL7KUznjXV19N6PYQlAhj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -86,15 +100,27 @@
       <option name="presentableId" value="Default" />
       <updated>1628337785199</updated>
       <workItem from="1628337797781" duration="325000" />
-      <workItem from="1628338599308" duration="2220000" />
+      <workItem from="1628338599308" duration="4566000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
