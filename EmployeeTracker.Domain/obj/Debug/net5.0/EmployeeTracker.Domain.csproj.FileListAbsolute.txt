@@ -10,3 +10,6 @@ C:\RiderProjects\EmployeeTracker\EmployeeTracker.Domain\obj\Debug\net5.0\Employe
 C:\RiderProjects\EmployeeTracker\EmployeeTracker.Domain\obj\Debug\net5.0\EmployeeTracker.Domain.dll
 C:\RiderProjects\EmployeeTracker\EmployeeTracker.Domain\obj\Debug\net5.0\ref\EmployeeTracker.Domain.dll
 C:\RiderProjects\EmployeeTracker\EmployeeTracker.Domain\obj\Debug\net5.0\EmployeeTracker.Domain.pdb
+C:\RiderProjects\EmployeeTracker\EmployeeTracker.Domain\bin\Debug\net5.0\EmployeeTracker.Infrastructure.Abstractions.dll
+C:\RiderProjects\EmployeeTracker\EmployeeTracker.Domain\bin\Debug\net5.0\EmployeeTracker.Infrastructure.Abstractions.pdb
+C:\RiderProjects\EmployeeTracker\EmployeeTracker.Domain\obj\Debug\net5.0\EmployeeTracker.Domain.csproj.CopyComplete

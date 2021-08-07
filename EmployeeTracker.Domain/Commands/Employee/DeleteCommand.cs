@@ -1,4 +1,4 @@
-namespace EmployeeTracker.Domain.Employee
+namespace EmployeeTracker.Domain.Commands.Employee
 {
     public class DeleteCommand
     {

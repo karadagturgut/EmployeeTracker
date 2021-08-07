@@ -10,6 +10,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeTracker.Infrastruct
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeTracker.Domain", "EmployeeTracker.Domain\EmployeeTracker.Domain.csproj", "{65255645-8629-4D0D-A3C8-746500B3F7FF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeTracker.Infrastructure.Abstractions", "EmployeeTracker.Infrastructure.Abstractions\EmployeeTracker.Infrastructure.Abstractions.csproj", "{02FB4CD5-6887-492E-BC85-8087507789D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeTracker.Logger", "EmployeeTracker.Logger\EmployeeTracker.Logger.csproj", "{AC577589-3B8C-4961-8A4D-3F3C7D5237C5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +40,13 @@ Global
 		{65255645-8629-4D0D-A3C8-746500B3F7FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65255645-8629-4D0D-A3C8-746500B3F7FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65255645-8629-4D0D-A3C8-746500B3F7FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02FB4CD5-6887-492E-BC85-8087507789D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02FB4CD5-6887-492E-BC85-8087507789D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02FB4CD5-6887-492E-BC85-8087507789D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02FB4CD5-6887-492E-BC85-8087507789D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC577589-3B8C-4961-8A4D-3F3C7D5237C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC577589-3B8C-4961-8A4D-3F3C7D5237C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC577589-3B8C-4961-8A4D-3F3C7D5237C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC577589-3B8C-4961-8A4D-3F3C7D5237C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

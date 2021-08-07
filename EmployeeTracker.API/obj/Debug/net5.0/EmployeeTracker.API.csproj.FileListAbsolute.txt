@@ -69,3 +69,12 @@ C:\RiderProjects\EmployeeTracker\EmployeeTracker.API\obj\Debug\net5.0\EmployeeTr
 C:\RiderProjects\EmployeeTracker\EmployeeTracker.API\obj\Debug\net5.0\EmployeeTracker.API.genruntimeconfig.cache
 C:\RiderProjects\EmployeeTracker\EmployeeTracker.API\bin\Debug\net5.0\Humanizer.dll
 C:\RiderProjects\EmployeeTracker\EmployeeTracker.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\RiderProjects\EmployeeTracker\EmployeeTracker.API\bin\Debug\net5.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\RiderProjects\EmployeeTracker\EmployeeTracker.API\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+C:\RiderProjects\EmployeeTracker\EmployeeTracker.API\bin\Debug\net5.0\Scrutor.dll
+C:\RiderProjects\EmployeeTracker\EmployeeTracker.API\bin\Debug\net5.0\EmployeeTracker.Contract.dll
+C:\RiderProjects\EmployeeTracker\EmployeeTracker.API\bin\Debug\net5.0\EmployeeTracker.Domain.dll
+C:\RiderProjects\EmployeeTracker\EmployeeTracker.API\bin\Debug\net5.0\EmployeeTracker.Infrastructure.Abstractions.dll
+C:\RiderProjects\EmployeeTracker\EmployeeTracker.API\bin\Debug\net5.0\EmployeeTracker.Contract.pdb
+C:\RiderProjects\EmployeeTracker\EmployeeTracker.API\bin\Debug\net5.0\EmployeeTracker.Domain.pdb
+C:\RiderProjects\EmployeeTracker\EmployeeTracker.API\bin\Debug\net5.0\EmployeeTracker.Infrastructure.Abstractions.pdb

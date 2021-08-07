@@ -20,6 +20,19 @@
           "lib/netstandard2.1/MediatR.dll": {}
         }
       },
+      "MediatR.Extensions.Microsoft.DependencyInjection/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "MediatR": "9.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/MediatR.Extensions.Microsoft.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/MediatR.Extensions.Microsoft.DependencyInjection.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Cryptography.Internal/5.0.8": {
         "type": "package",
         "compile": {
@@ -281,6 +294,18 @@
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyModel/3.1.6": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Json": "4.7.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyModel.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyModel.dll": {}
         }
       },
       "Microsoft.Extensions.Identity.Core/5.0.8": {
@@ -556,6 +581,19 @@
         },
         "runtime": {
           "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Scrutor/3.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.9",
+          "Microsoft.Extensions.DependencyModel": "3.1.6"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Scrutor.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Scrutor.dll": {}
         }
       },
       "Swashbuckle.AspNetCore/5.6.3": {
@@ -1487,6 +1525,15 @@
           "ref/netstandard1.3/System.Text.Encoding.Extensions.dll": {}
         }
       },
+      "System.Text.Json/4.7.2": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/System.Text.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/System.Text.Json.dll": {}
+        }
+      },
       "System.Text.RegularExpressions/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -1653,6 +1700,16 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "EmployeeTracker.Contract/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/EmployeeTracker.Contract.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EmployeeTracker.Contract.dll": {}
+        }
+      },
       "EmployeeTracker.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -1666,11 +1723,26 @@
           "bin/placeholder/EmployeeTracker.Core.dll": {}
         }
       },
+      "EmployeeTracker.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "EmployeeTracker.Infrastructure.Abstractions": "1.0.0",
+          "MediatR": "9.0.0"
+        },
+        "compile": {
+          "bin/placeholder/EmployeeTracker.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EmployeeTracker.Domain.dll": {}
+        }
+      },
       "EmployeeTracker.Infrastructure/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "EmployeeTracker.Core": "1.0.0",
+          "EmployeeTracker.Infrastructure.Abstractions": "1.0.0",
           "Microsoft.EntityFrameworkCore": "5.0.8",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.8"
         },
@@ -1679,6 +1751,16 @@
         },
         "runtime": {
           "bin/placeholder/EmployeeTracker.Infrastructure.dll": {}
+        }
+      },
+      "EmployeeTracker.Infrastructure.Abstractions/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/EmployeeTracker.Infrastructure.Abstractions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EmployeeTracker.Infrastructure.Abstractions.dll": {}
         }
       }
     }
@@ -1716,6 +1798,19 @@
         "lib/netstandard2.1/MediatR.xml",
         "mediatr.9.0.0.nupkg.sha512",
         "mediatr.nuspec"
+      ]
+    },
+    "MediatR.Extensions.Microsoft.DependencyInjection/9.0.0": {
+      "sha512": "msreY4ogiPdIRWiCQVHQDytIQpsZCLWsixWPZ+Xs86KZrvtuiV8BDHbIT0kBmogynVYWNpspb3caw+86YU8L6w==",
+      "type": "package",
+      "path": "mediatr.extensions.microsoft.dependencyinjection/9.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gradient_128x128.png",
+        "lib/netstandard2.0/MediatR.Extensions.Microsoft.DependencyInjection.dll",
+        "mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
+        "mediatr.extensions.microsoft.dependencyinjection.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Cryptography.Internal/5.0.8": {
@@ -2137,6 +2232,28 @@
         "microsoft.extensions.dependencyinjection.abstractions.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
+      ]
+    },
+    "Microsoft.Extensions.DependencyModel/3.1.6": {
+      "sha512": "/UlDKULIVkLQYn1BaHcy/rc91ApDxJb7T75HcCbGdqwvxhnRQRKM2di1E70iCPMF9zsr6f4EgQTotBGxFIfXmw==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencymodel/3.1.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net451/Microsoft.Extensions.DependencyModel.dll",
+        "lib/net451/Microsoft.Extensions.DependencyModel.xml",
+        "lib/netstandard1.3/Microsoft.Extensions.DependencyModel.dll",
+        "lib/netstandard1.3/Microsoft.Extensions.DependencyModel.xml",
+        "lib/netstandard1.6/Microsoft.Extensions.DependencyModel.dll",
+        "lib/netstandard1.6/Microsoft.Extensions.DependencyModel.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyModel.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyModel.xml",
+        "microsoft.extensions.dependencymodel.3.1.6.nupkg.sha512",
+        "microsoft.extensions.dependencymodel.nuspec"
       ]
     },
     "Microsoft.Extensions.Identity.Core/5.0.8": {
@@ -2572,6 +2689,26 @@
         "lib/netstandard1.0/_._",
         "runtime.native.system.4.3.0.nupkg.sha512",
         "runtime.native.system.nuspec"
+      ]
+    },
+    "Scrutor/3.3.0": {
+      "sha512": "BwqCnFzp2/Z+pq17iztxlIkR/ZANyPRR4PdE57WL1w/JW4AM/2imoxBWTL3+G+YXA46ce4s9OUgwWqTXYrtI8A==",
+      "type": "package",
+      "path": "scrutor/3.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/Scrutor.dll",
+        "lib/net461/Scrutor.pdb",
+        "lib/net461/Scrutor.xml",
+        "lib/netcoreapp3.1/Scrutor.dll",
+        "lib/netcoreapp3.1/Scrutor.pdb",
+        "lib/netcoreapp3.1/Scrutor.xml",
+        "lib/netstandard2.0/Scrutor.dll",
+        "lib/netstandard2.0/Scrutor.pdb",
+        "lib/netstandard2.0/Scrutor.xml",
+        "scrutor.3.3.0.nupkg.sha512",
+        "scrutor.nuspec"
       ]
     },
     "Swashbuckle.AspNetCore/5.6.3": {
@@ -5630,6 +5767,28 @@
         "system.text.encoding.extensions.nuspec"
       ]
     },
+    "System.Text.Json/4.7.2": {
+      "sha512": "TcMd95wcrubm9nHvJEQs70rC0H/8omiSGGpU4FQ/ZA1URIqD4pjmFJh2Mfv1yH1eHgJDWTi2hMDXwTET+zOOyg==",
+      "type": "package",
+      "path": "system.text.json/4.7.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Text.Json.dll",
+        "lib/net461/System.Text.Json.xml",
+        "lib/netcoreapp3.0/System.Text.Json.dll",
+        "lib/netcoreapp3.0/System.Text.Json.xml",
+        "lib/netstandard2.0/System.Text.Json.dll",
+        "lib/netstandard2.0/System.Text.Json.xml",
+        "system.text.json.4.7.2.nupkg.sha512",
+        "system.text.json.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
     "System.Text.RegularExpressions/4.3.0": {
       "sha512": "RpT2DA+L660cBt1FssIE9CAGpLFdFPuheB7pLpKpn6ZXNby7jDERe8Ua/Ne2xGiwLVG2JOqziiaVCGDon5sKFA==",
       "type": "package",
@@ -6143,23 +6302,42 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "EmployeeTracker.Contract/1.0.0": {
+      "type": "project",
+      "path": "../EmployeeTracker.Contract/EmployeeTracker.Contract.csproj",
+      "msbuildProject": "../EmployeeTracker.Contract/EmployeeTracker.Contract.csproj"
+    },
     "EmployeeTracker.Core/1.0.0": {
       "type": "project",
       "path": "../EmployeeTracker.Core/EmployeeTracker.Core.csproj",
       "msbuildProject": "../EmployeeTracker.Core/EmployeeTracker.Core.csproj"
     },
+    "EmployeeTracker.Domain/1.0.0": {
+      "type": "project",
+      "path": "../EmployeeTracker.Domain/EmployeeTracker.Domain.csproj",
+      "msbuildProject": "../EmployeeTracker.Domain/EmployeeTracker.Domain.csproj"
+    },
     "EmployeeTracker.Infrastructure/1.0.0": {
       "type": "project",
       "path": "../EmployeeTracker.Infrastructure/EmployeeTracker.Infrastructure.csproj",
       "msbuildProject": "../EmployeeTracker.Infrastructure/EmployeeTracker.Infrastructure.csproj"
+    },
+    "EmployeeTracker.Infrastructure.Abstractions/1.0.0": {
+      "type": "project",
+      "path": "../EmployeeTracker.Infrastructure.Abstractions/EmployeeTracker.Infrastructure.Abstractions.csproj",
+      "msbuildProject": "../EmployeeTracker.Infrastructure.Abstractions/EmployeeTracker.Infrastructure.Abstractions.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "EmployeeTracker.Contract >= 1.0.0",
+      "EmployeeTracker.Domain >= 1.0.0",
       "EmployeeTracker.Infrastructure >= 1.0.0",
       "MediatR >= 9.0.0",
+      "MediatR.Extensions.Microsoft.DependencyInjection >= 9.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.8",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.8",
+      "Scrutor >= 3.3.0",
       "Swashbuckle.AspNetCore >= 5.6.3"
     ]
   },
@@ -6190,6 +6368,12 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+            "C:\\RiderProjects\\EmployeeTracker\\EmployeeTracker.Contract\\EmployeeTracker.Contract.csproj": {
+              "projectPath": "C:\\RiderProjects\\EmployeeTracker\\EmployeeTracker.Contract\\EmployeeTracker.Contract.csproj"
+            },
+            "C:\\RiderProjects\\EmployeeTracker\\EmployeeTracker.Domain\\EmployeeTracker.Domain.csproj": {
+              "projectPath": "C:\\RiderProjects\\EmployeeTracker\\EmployeeTracker.Domain\\EmployeeTracker.Domain.csproj"
+            },
             "C:\\RiderProjects\\EmployeeTracker\\EmployeeTracker.Infrastructure\\EmployeeTracker.Infrastructure.csproj": {
               "projectPath": "C:\\RiderProjects\\EmployeeTracker\\EmployeeTracker.Infrastructure\\EmployeeTracker.Infrastructure.csproj"
             }
@@ -6210,6 +6394,10 @@
             "target": "Package",
             "version": "[9.0.0, )"
           },
+          "MediatR.Extensions.Microsoft.DependencyInjection": {
+            "target": "Package",
+            "version": "[9.0.0, )"
+          },
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
@@ -6219,6 +6407,10 @@
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
             "version": "[5.0.8, )"
+          },
+          "Scrutor": {
+            "target": "Package",
+            "version": "[3.3.0, )"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",

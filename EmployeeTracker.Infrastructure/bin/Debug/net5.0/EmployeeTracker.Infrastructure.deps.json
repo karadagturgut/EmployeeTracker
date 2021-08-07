@@ -9,6 +9,7 @@
       "EmployeeTracker.Infrastructure/1.0.0": {
         "dependencies": {
           "EmployeeTracker.Core": "1.0.0",
+          "EmployeeTracker.Infrastructure.Abstractions": "1.0.0",
           "Microsoft.EntityFrameworkCore": "5.0.8",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.8"
         },
@@ -1105,6 +1106,11 @@
         "runtime": {
           "EmployeeTracker.Core.dll": {}
         }
+      },
+      "EmployeeTracker.Infrastructure.Abstractions/1.0.0": {
+        "runtime": {
+          "EmployeeTracker.Infrastructure.Abstractions.dll": {}
+        }
       }
     }
   },
@@ -1808,6 +1814,11 @@
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
     "EmployeeTracker.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EmployeeTracker.Infrastructure.Abstractions/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

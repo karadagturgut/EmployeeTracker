@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "azZJbvKT3pNN33HNFXWvBY3hTZal+2uWb9HaEPdjG8jJc2vk4wHctvMYXYbcQ2xQSunf7c6v/tc4GWnny/bGDQ==",
+  "dgSpecHash": "c0UaBC8g0lZwKNYTrlGNV6yb2qeTwxNhJu9tgOHy5Wyn09rPrtmw0HZ7N5xPiEk3XzYWkp0j3YUAYkP3o+m6VA==",
   "success": true,
   "projectFilePath": "C:\\RiderProjects\\EmployeeTracker\\EmployeeTracker.Domain\\EmployeeTracker.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\turgu\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

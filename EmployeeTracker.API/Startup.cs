@@ -3,7 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using EmployeeTracker.Core.Entities;
+using EmployeeTracker.Domain.Commands.User;
 using EmployeeTracker.Infrastructure;
+using EmployeeTracker.Infrastructure.Abstractions.Services;
+using EmployeeTracker.Infrastructure.Services;
+using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -12,6 +16,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.DependencyInjection.Extensions;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
@@ -38,6 +43,11 @@ namespace EmployeeTracker
             services
                 .AddDbContext<EmployeeTrackerDbContext>(x => x.UseSqlServer(Configuration.GetConnectionString("MSSQL")))
                 .AddIdentity<User, Role>().AddEntityFrameworkStores<EmployeeTrackerDbContext>();
+
+            services.Scan(scan =>
+                scan.FromAssemblyOf<IScopedService>().FromAssemblyOf<AuthenticationService>().AddClasses(classes => classes.AssignableTo<IScopedService>())
+                    .AsImplementedInterfaces().WithScopedLifetime());
+            services.AddMediatR(typeof(Startup),typeof(LoginCommand));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

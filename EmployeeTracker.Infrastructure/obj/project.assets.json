@@ -1556,6 +1556,16 @@
         "runtime": {
           "bin/placeholder/EmployeeTracker.Core.dll": {}
         }
+      },
+      "EmployeeTracker.Infrastructure.Abstractions/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/EmployeeTracker.Infrastructure.Abstractions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EmployeeTracker.Infrastructure.Abstractions.dll": {}
+        }
       }
     }
   },
@@ -5866,11 +5876,17 @@
       "type": "project",
       "path": "../EmployeeTracker.Core/EmployeeTracker.Core.csproj",
       "msbuildProject": "../EmployeeTracker.Core/EmployeeTracker.Core.csproj"
+    },
+    "EmployeeTracker.Infrastructure.Abstractions/1.0.0": {
+      "type": "project",
+      "path": "../EmployeeTracker.Infrastructure.Abstractions/EmployeeTracker.Infrastructure.Abstractions.csproj",
+      "msbuildProject": "../EmployeeTracker.Infrastructure.Abstractions/EmployeeTracker.Infrastructure.Abstractions.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
       "EmployeeTracker.Core >= 1.0.0",
+      "EmployeeTracker.Infrastructure.Abstractions >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 5.0.8",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.8"
     ]
@@ -5904,6 +5920,9 @@
           "projectReferences": {
             "C:\\RiderProjects\\EmployeeTracker\\EmployeeTracker.Core\\EmployeeTracker.Core.csproj": {
               "projectPath": "C:\\RiderProjects\\EmployeeTracker\\EmployeeTracker.Core\\EmployeeTracker.Core.csproj"
+            },
+            "C:\\RiderProjects\\EmployeeTracker\\EmployeeTracker.Infrastructure.Abstractions\\EmployeeTracker.Infrastructure.Abstractions.csproj": {
+              "projectPath": "C:\\RiderProjects\\EmployeeTracker\\EmployeeTracker.Infrastructure.Abstractions\\EmployeeTracker.Infrastructure.Abstractions.csproj"
             }
           }
         }

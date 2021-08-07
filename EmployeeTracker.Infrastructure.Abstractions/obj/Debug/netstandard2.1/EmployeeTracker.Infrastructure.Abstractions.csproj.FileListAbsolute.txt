@@ -1,0 +1,9 @@
+C:\RiderProjects\EmployeeTracker\EmployeeTracker.Infrastructure.Abstractions\bin\Debug\netstandard2.1\EmployeeTracker.Infrastructure.Abstractions.deps.json
+C:\RiderProjects\EmployeeTracker\EmployeeTracker.Infrastructure.Abstractions\bin\Debug\netstandard2.1\EmployeeTracker.Infrastructure.Abstractions.dll
+C:\RiderProjects\EmployeeTracker\EmployeeTracker.Infrastructure.Abstractions\bin\Debug\netstandard2.1\EmployeeTracker.Infrastructure.Abstractions.pdb
+C:\RiderProjects\EmployeeTracker\EmployeeTracker.Infrastructure.Abstractions\obj\Debug\netstandard2.1\EmployeeTracker.Infrastructure.Abstractions.csprojAssemblyReference.cache
+C:\RiderProjects\EmployeeTracker\EmployeeTracker.Infrastructure.Abstractions\obj\Debug\netstandard2.1\EmployeeTracker.Infrastructure.Abstractions.AssemblyInfoInputs.cache
+C:\RiderProjects\EmployeeTracker\EmployeeTracker.Infrastructure.Abstractions\obj\Debug\netstandard2.1\EmployeeTracker.Infrastructure.Abstractions.AssemblyInfo.cs
+C:\RiderProjects\EmployeeTracker\EmployeeTracker.Infrastructure.Abstractions\obj\Debug\netstandard2.1\EmployeeTracker.Infrastructure.Abstractions.csproj.CoreCompileInputs.cache
+C:\RiderProjects\EmployeeTracker\EmployeeTracker.Infrastructure.Abstractions\obj\Debug\netstandard2.1\EmployeeTracker.Infrastructure.Abstractions.dll
+C:\RiderProjects\EmployeeTracker\EmployeeTracker.Infrastructure.Abstractions\obj\Debug\netstandard2.1\EmployeeTracker.Infrastructure.Abstractions.pdb

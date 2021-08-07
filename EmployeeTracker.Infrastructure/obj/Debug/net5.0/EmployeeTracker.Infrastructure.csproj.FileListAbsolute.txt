@@ -13,3 +13,5 @@ C:\RiderProjects\EmployeeTracker\EmployeeTracker.Infrastructure\obj\Debug\net5.0
 C:\RiderProjects\EmployeeTracker\EmployeeTracker.Infrastructure\obj\Debug\net5.0\EmployeeTracker.Infrastructure.dll
 C:\RiderProjects\EmployeeTracker\EmployeeTracker.Infrastructure\obj\Debug\net5.0\ref\EmployeeTracker.Infrastructure.dll
 C:\RiderProjects\EmployeeTracker\EmployeeTracker.Infrastructure\obj\Debug\net5.0\EmployeeTracker.Infrastructure.pdb
+C:\RiderProjects\EmployeeTracker\EmployeeTracker.Infrastructure\bin\Debug\net5.0\EmployeeTracker.Infrastructure.Abstractions.dll
+C:\RiderProjects\EmployeeTracker\EmployeeTracker.Infrastructure\bin\Debug\net5.0\EmployeeTracker.Infrastructure.Abstractions.pdb

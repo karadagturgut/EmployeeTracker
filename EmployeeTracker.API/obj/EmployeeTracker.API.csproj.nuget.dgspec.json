@@ -28,6 +28,12 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
+              "C:\\RiderProjects\\EmployeeTracker\\EmployeeTracker.Contract\\EmployeeTracker.Contract.csproj": {
+                "projectPath": "C:\\RiderProjects\\EmployeeTracker\\EmployeeTracker.Contract\\EmployeeTracker.Contract.csproj"
+              },
+              "C:\\RiderProjects\\EmployeeTracker\\EmployeeTracker.Domain\\EmployeeTracker.Domain.csproj": {
+                "projectPath": "C:\\RiderProjects\\EmployeeTracker\\EmployeeTracker.Domain\\EmployeeTracker.Domain.csproj"
+              },
               "C:\\RiderProjects\\EmployeeTracker\\EmployeeTracker.Infrastructure\\EmployeeTracker.Infrastructure.csproj": {
                 "projectPath": "C:\\RiderProjects\\EmployeeTracker\\EmployeeTracker.Infrastructure\\EmployeeTracker.Infrastructure.csproj"
               }
@@ -48,6 +54,10 @@
               "target": "Package",
               "version": "[9.0.0, )"
             },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -57,6 +67,10 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[5.0.8, )"
+            },
+            "Scrutor": {
+              "target": "Package",
+              "version": "[3.3.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -77,6 +91,60 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\RiderProjects\\EmployeeTracker\\EmployeeTracker.Contract\\EmployeeTracker.Contract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\RiderProjects\\EmployeeTracker\\EmployeeTracker.Contract\\EmployeeTracker.Contract.csproj",
+        "projectName": "EmployeeTracker.Contract",
+        "projectPath": "C:\\RiderProjects\\EmployeeTracker\\EmployeeTracker.Contract\\EmployeeTracker.Contract.csproj",
+        "packagesPath": "C:\\Users\\turgu\\.nuget\\packages\\",
+        "outputPath": "C:\\RiderProjects\\EmployeeTracker\\EmployeeTracker.Contract\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\turgu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
@@ -145,6 +213,124 @@
         }
       }
     },
+    "C:\\RiderProjects\\EmployeeTracker\\EmployeeTracker.Domain\\EmployeeTracker.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\RiderProjects\\EmployeeTracker\\EmployeeTracker.Domain\\EmployeeTracker.Domain.csproj",
+        "projectName": "EmployeeTracker.Domain",
+        "projectPath": "C:\\RiderProjects\\EmployeeTracker\\EmployeeTracker.Domain\\EmployeeTracker.Domain.csproj",
+        "packagesPath": "C:\\Users\\turgu\\.nuget\\packages\\",
+        "outputPath": "C:\\RiderProjects\\EmployeeTracker\\EmployeeTracker.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\turgu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\RiderProjects\\EmployeeTracker\\EmployeeTracker.Infrastructure.Abstractions\\EmployeeTracker.Infrastructure.Abstractions.csproj": {
+                "projectPath": "C:\\RiderProjects\\EmployeeTracker\\EmployeeTracker.Infrastructure.Abstractions\\EmployeeTracker.Infrastructure.Abstractions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\RiderProjects\\EmployeeTracker\\EmployeeTracker.Infrastructure.Abstractions\\EmployeeTracker.Infrastructure.Abstractions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\RiderProjects\\EmployeeTracker\\EmployeeTracker.Infrastructure.Abstractions\\EmployeeTracker.Infrastructure.Abstractions.csproj",
+        "projectName": "EmployeeTracker.Infrastructure.Abstractions",
+        "projectPath": "C:\\RiderProjects\\EmployeeTracker\\EmployeeTracker.Infrastructure.Abstractions\\EmployeeTracker.Infrastructure.Abstractions.csproj",
+        "packagesPath": "C:\\Users\\turgu\\.nuget\\packages\\",
+        "outputPath": "C:\\RiderProjects\\EmployeeTracker\\EmployeeTracker.Infrastructure.Abstractions\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\turgu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\RiderProjects\\EmployeeTracker\\EmployeeTracker.Infrastructure\\EmployeeTracker.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -171,6 +357,9 @@
             "projectReferences": {
               "C:\\RiderProjects\\EmployeeTracker\\EmployeeTracker.Core\\EmployeeTracker.Core.csproj": {
                 "projectPath": "C:\\RiderProjects\\EmployeeTracker\\EmployeeTracker.Core\\EmployeeTracker.Core.csproj"
+              },
+              "C:\\RiderProjects\\EmployeeTracker\\EmployeeTracker.Infrastructure.Abstractions\\EmployeeTracker.Infrastructure.Abstractions.csproj": {
+                "projectPath": "C:\\RiderProjects\\EmployeeTracker\\EmployeeTracker.Infrastructure.Abstractions\\EmployeeTracker.Infrastructure.Abstractions.csproj"
               }
             }
           }

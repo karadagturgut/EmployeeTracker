@@ -1,4 +1,4 @@
-namespace EmployeeTracker.Domain.User
+namespace EmployeeTracker.Domain.Commands.Employee
 {
     public class UpdateCommand
     {

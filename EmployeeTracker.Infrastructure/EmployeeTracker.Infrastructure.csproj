@@ -11,10 +11,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\EmployeeTracker.Core\EmployeeTracker.Core.csproj" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <Folder Include="Services" />
+      <ProjectReference Include="..\EmployeeTracker.Infrastructure.Abstractions\EmployeeTracker.Infrastructure.Abstractions.csproj" />
     </ItemGroup>
 
 </Project>
