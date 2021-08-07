@@ -8,14 +8,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="432673dd-f10b-448f-9e3f-33ac4633336a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.EmployeeTracker/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EmployeeTracker.Core/Entities/Company.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EmployeeTracker.Core/Entities/Employee.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EmployeeTracker.Core/Entities/User.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EmployeeTracker.API/Controllers/UserController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EmployeeTracker.Contract/User/LoginModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EmployeeTracker.Contract/User/RegisterModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EmployeeTracker.Core/Entities/IBaseEntity.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EmployeeTracker.Core/Entities/Role.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EmployeeTracker.Domain/Employee/CreateCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EmployeeTracker.Domain/Employee/DeleteCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EmployeeTracker.Domain/Employee/UpdateCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EmployeeTracker.Domain/User/LoginCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EmployeeTracker.Domain/User/UpdateCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EmployeeTracker.Infrastructure/DbContext.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.EmployeeTracker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EmployeeTracker/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeTracker.API/Controllers/WeatherForecastController.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/EmployeeTracker.API/EmployeeTracker.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.API/EmployeeTracker.API.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeTracker.Domain/EmployeeTracker.Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Domain/EmployeeTracker.Domain.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.API/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.API/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.API/WeatherForecast.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.API/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.API/appsettings.Development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.API/obj/Debug/net5.0/EmployeeTracker.API.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.API/obj/Debug/net5.0/EmployeeTracker.API.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.API/obj/Debug/net5.0/EmployeeTracker.API.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.API/obj/Debug/net5.0/EmployeeTracker.API.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.API/obj/EmployeeTracker.API.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.API/obj/EmployeeTracker.API.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.API/obj/EmployeeTracker.API.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.API/obj/EmployeeTracker.API.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.API/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.API/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.API/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.API/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.API/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.API/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.Contract/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Contract/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.Core/EmployeeTracker.Core.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Core/EmployeeTracker.Core.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.Core/Entities/Company.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Core/Entities/Company.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.Core/Entities/Employee.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Core/Entities/Employee.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.Core/Entities/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Core/Entities/User.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.Core/obj/Debug/net5.0/EmployeeTracker.Core.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Core/obj/Debug/net5.0/EmployeeTracker.Core.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.Core/obj/EmployeeTracker.Core.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Core/obj/EmployeeTracker.Core.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.Core/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Core/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.Core/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Core/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.Core/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Core/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.Core/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Core/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.Domain/User/UserRegisterCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Domain/User/RegisterCommand.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.Domain/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Domain/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.Infrastructure/EmployeeTracker.Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Infrastructure/EmployeeTracker.Infrastructure.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.Infrastructure/obj/Debug/net5.0/EmployeeTracker.Infrastructure.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Infrastructure/obj/Debug/net5.0/EmployeeTracker.Infrastructure.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.Infrastructure/obj/EmployeeTracker.Infrastructure.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Infrastructure/obj/EmployeeTracker.Infrastructure.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.Infrastructure/obj/EmployeeTracker.Infrastructure.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Infrastructure/obj/EmployeeTracker.Infrastructure.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.Infrastructure/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Infrastructure/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.Infrastructure/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Infrastructure/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.Infrastructure/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Infrastructure/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.Infrastructure/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Infrastructure/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +70,7 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/89c610a499d54d8c91f979f6b644c3519f80/3/IdentityUser.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/EmployeeTracker.API/Startup.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -57,6 +94,7 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.EmployeeTracker">
@@ -120,6 +158,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />

@@ -1,0 +1,15 @@
+C:\RiderProjects\EmployeeTracker\EmployeeTracker.Infrastructure\bin\Debug\net5.0\EmployeeTracker.Infrastructure.deps.json
+C:\RiderProjects\EmployeeTracker\EmployeeTracker.Infrastructure\bin\Debug\net5.0\EmployeeTracker.Infrastructure.dll
+C:\RiderProjects\EmployeeTracker\EmployeeTracker.Infrastructure\bin\Debug\net5.0\ref\EmployeeTracker.Infrastructure.dll
+C:\RiderProjects\EmployeeTracker\EmployeeTracker.Infrastructure\bin\Debug\net5.0\EmployeeTracker.Infrastructure.pdb
+C:\RiderProjects\EmployeeTracker\EmployeeTracker.Infrastructure\bin\Debug\net5.0\EmployeeTracker.Core.dll
+C:\RiderProjects\EmployeeTracker\EmployeeTracker.Infrastructure\bin\Debug\net5.0\EmployeeTracker.Core.pdb
+C:\RiderProjects\EmployeeTracker\EmployeeTracker.Infrastructure\obj\Debug\net5.0\EmployeeTracker.Infrastructure.csprojAssemblyReference.cache
+C:\RiderProjects\EmployeeTracker\EmployeeTracker.Infrastructure\obj\Debug\net5.0\EmployeeTracker.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\RiderProjects\EmployeeTracker\EmployeeTracker.Infrastructure\obj\Debug\net5.0\EmployeeTracker.Infrastructure.AssemblyInfoInputs.cache
+C:\RiderProjects\EmployeeTracker\EmployeeTracker.Infrastructure\obj\Debug\net5.0\EmployeeTracker.Infrastructure.AssemblyInfo.cs
+C:\RiderProjects\EmployeeTracker\EmployeeTracker.Infrastructure\obj\Debug\net5.0\EmployeeTracker.Infrastructure.csproj.CoreCompileInputs.cache
+C:\RiderProjects\EmployeeTracker\EmployeeTracker.Infrastructure\obj\Debug\net5.0\EmployeeTracker.Infrastructure.csproj.CopyComplete
+C:\RiderProjects\EmployeeTracker\EmployeeTracker.Infrastructure\obj\Debug\net5.0\EmployeeTracker.Infrastructure.dll
+C:\RiderProjects\EmployeeTracker\EmployeeTracker.Infrastructure\obj\Debug\net5.0\ref\EmployeeTracker.Infrastructure.dll
+C:\RiderProjects\EmployeeTracker\EmployeeTracker.Infrastructure\obj\Debug\net5.0\EmployeeTracker.Infrastructure.pdb

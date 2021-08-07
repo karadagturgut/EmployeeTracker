@@ -2,10 +2,14 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using EmployeeTracker.Core.Entities;
+using EmployeeTracker.Infrastructure;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -29,8 +33,11 @@ namespace EmployeeTracker
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo {Title = "EmployeeTracker.API", Version = "v1"});
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "EmployeeTracker.API", Version = "v1" });
             });
+            services
+                .AddDbContext<EmployeeTrackerDbContext>(x => x.UseSqlServer(Configuration.GetConnectionString("MSSQL")))
+                .AddIdentity<User, Role>().AddEntityFrameworkStores<EmployeeTrackerDbContext>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

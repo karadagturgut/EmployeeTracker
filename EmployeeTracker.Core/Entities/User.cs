@@ -1,8 +1,9 @@
+using Microsoft.AspNetCore.Identity;
+
 namespace EmployeeTracker.Core.Entities
 {
-    public class User
+    public class User:IdentityUser<int>,IBaseEntity
     {
-        public string Id { get; set; }
         public string Name { get; set; }
         public string Surname { get; set; }
         public string Password { get; set; }

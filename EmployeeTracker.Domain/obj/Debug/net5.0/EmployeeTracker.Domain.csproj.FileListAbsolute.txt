@@ -1,0 +1,12 @@
+C:\RiderProjects\EmployeeTracker\EmployeeTracker.Domain\bin\Debug\net5.0\EmployeeTracker.Domain.deps.json
+C:\RiderProjects\EmployeeTracker\EmployeeTracker.Domain\bin\Debug\net5.0\EmployeeTracker.Domain.dll
+C:\RiderProjects\EmployeeTracker\EmployeeTracker.Domain\bin\Debug\net5.0\ref\EmployeeTracker.Domain.dll
+C:\RiderProjects\EmployeeTracker\EmployeeTracker.Domain\bin\Debug\net5.0\EmployeeTracker.Domain.pdb
+C:\RiderProjects\EmployeeTracker\EmployeeTracker.Domain\obj\Debug\net5.0\EmployeeTracker.Domain.csprojAssemblyReference.cache
+C:\RiderProjects\EmployeeTracker\EmployeeTracker.Domain\obj\Debug\net5.0\EmployeeTracker.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\RiderProjects\EmployeeTracker\EmployeeTracker.Domain\obj\Debug\net5.0\EmployeeTracker.Domain.AssemblyInfoInputs.cache
+C:\RiderProjects\EmployeeTracker\EmployeeTracker.Domain\obj\Debug\net5.0\EmployeeTracker.Domain.AssemblyInfo.cs
+C:\RiderProjects\EmployeeTracker\EmployeeTracker.Domain\obj\Debug\net5.0\EmployeeTracker.Domain.csproj.CoreCompileInputs.cache
+C:\RiderProjects\EmployeeTracker\EmployeeTracker.Domain\obj\Debug\net5.0\EmployeeTracker.Domain.dll
+C:\RiderProjects\EmployeeTracker\EmployeeTracker.Domain\obj\Debug\net5.0\ref\EmployeeTracker.Domain.dll
+C:\RiderProjects\EmployeeTracker\EmployeeTracker.Domain\obj\Debug\net5.0\EmployeeTracker.Domain.pdb
