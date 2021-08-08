@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\turgu\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\turgu\\.nuget\\packages"
+    ]
+  }
+}

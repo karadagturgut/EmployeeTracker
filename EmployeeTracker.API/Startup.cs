@@ -20,6 +20,9 @@ using Microsoft.Extensions.DependencyInjection.Extensions;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using Serilog;
+using Serilog.Formatting.Json;
+using Serilog.Sinks.RabbitMQ;
 
 namespace EmployeeTracker
 {
@@ -48,6 +51,24 @@ namespace EmployeeTracker
                 scan.FromAssemblyOf<IScopedService>().FromAssemblyOf<AuthenticationService>().AddClasses(classes => classes.AssignableTo<IScopedService>())
                     .AsImplementedInterfaces().WithScopedLifetime());
             services.AddMediatR(typeof(Startup),typeof(LoginCommand));
+            Log.Logger = new LoggerConfiguration()
+                .Enrich.FromLogContext()
+                .WriteTo.RabbitMQ((clientConfiguration, sinkConfiguration) => {
+                    clientConfiguration.Username     = Configuration["RabbitMq:Username"];
+                    clientConfiguration.Password     = Configuration["RabbitMq:Password"];
+                    clientConfiguration.Exchange = "Log";
+                    clientConfiguration.ExchangeType = "Direct" ;
+                    clientConfiguration.DeliveryMode = RabbitMQDeliveryMode.Durable;
+                    clientConfiguration.RouteKey     = "Logs";
+                    clientConfiguration.Port         = Convert.ToInt32(Configuration["RabbitMq:Port"]);
+                    clientConfiguration.Hostnames.Add(Configuration["RabbitMq:Host"]);
+                    sinkConfiguration.TextFormatter  = new JsonFormatter();
+                }).CreateLogger();
+            var loggerFactory = new LoggerFactory();
+            loggerFactory
+                .AddSerilog(); //if you are not assigning the logger to Log.Logger, then you need to add your logger here.
+            services.AddSingleton<ILoggerFactory>(loggerFactory);
+            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
