@@ -10,53 +10,80 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="432673dd-f10b-448f-9e3f-33ac4633336a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/EmployeeTracker.Logger/Consumer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EmployeeTracker.Logger/RabbitMQService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EmployeeTracker.Domain/Queries/GetAllEmployeesQuery.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EmployeeTracker.Infrastructure.Abstractions/Services/IEmployeeService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EmployeeTracker.Infrastructure/Services/EmployeeService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.EmployeeTracker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EmployeeTracker/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeTracker.API/Controllers/UserController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.API/Controllers/UserController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeTracker.API/EmployeeTracker.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.API/EmployeeTracker.API.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeTracker.API/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.API/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeTracker.API/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.API/appsettings.Development.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeTracker.API/bin/Debug/net5.0/EmployeeTracker.API.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.API/bin/Debug/net5.0/EmployeeTracker.API.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EmployeeTracker.API/bin/Debug/net5.0/EmployeeTracker.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.API/bin/Debug/net5.0/EmployeeTracker.API.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EmployeeTracker.API/bin/Debug/net5.0/EmployeeTracker.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.API/bin/Debug/net5.0/EmployeeTracker.API.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeTracker.API/bin/Debug/net5.0/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.API/bin/Debug/net5.0/appsettings.Development.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeTracker.API/bin/Debug/net5.0/ref/EmployeeTracker.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.API/bin/Debug/net5.0/ref/EmployeeTracker.API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.API/bin/Debug/net5.0/EmployeeTracker.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.API/bin/Debug/net5.0/EmployeeTracker.Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.API/bin/Debug/net5.0/EmployeeTracker.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.API/bin/Debug/net5.0/EmployeeTracker.Core.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.API/bin/Debug/net5.0/EmployeeTracker.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.API/bin/Debug/net5.0/EmployeeTracker.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.API/bin/Debug/net5.0/EmployeeTracker.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.API/bin/Debug/net5.0/EmployeeTracker.Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.API/bin/Debug/net5.0/EmployeeTracker.Infrastructure.Abstractions.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.API/bin/Debug/net5.0/EmployeeTracker.Infrastructure.Abstractions.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.API/bin/Debug/net5.0/EmployeeTracker.Infrastructure.Abstractions.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.API/bin/Debug/net5.0/EmployeeTracker.Infrastructure.Abstractions.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.API/bin/Debug/net5.0/EmployeeTracker.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.API/bin/Debug/net5.0/EmployeeTracker.Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.API/bin/Debug/net5.0/EmployeeTracker.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.API/bin/Debug/net5.0/EmployeeTracker.Infrastructure.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EmployeeTracker.API/obj/Debug/net5.0/EmployeeTracker.API.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.API/obj/Debug/net5.0/EmployeeTracker.API.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeTracker.API/obj/Debug/net5.0/EmployeeTracker.API.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.API/obj/Debug/net5.0/EmployeeTracker.API.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeTracker.API/obj/Debug/net5.0/EmployeeTracker.API.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.API/obj/Debug/net5.0/EmployeeTracker.API.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EmployeeTracker.API/obj/Debug/net5.0/EmployeeTracker.API.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.API/obj/Debug/net5.0/EmployeeTracker.API.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EmployeeTracker.API/obj/Debug/net5.0/EmployeeTracker.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.API/obj/Debug/net5.0/EmployeeTracker.API.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EmployeeTracker.API/obj/Debug/net5.0/EmployeeTracker.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.API/obj/Debug/net5.0/EmployeeTracker.API.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeTracker.API/obj/Debug/net5.0/ref/EmployeeTracker.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.API/obj/Debug/net5.0/ref/EmployeeTracker.API.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EmployeeTracker.API/obj/EmployeeTracker.API.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.API/obj/EmployeeTracker.API.csproj.nuget.dgspec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EmployeeTracker.API/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.API/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EmployeeTracker.API/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.API/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeTracker.API/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.API/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EmployeeTracker.API/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.API/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EmployeeTracker.Contract/obj/Debug/net5.0/EmployeeTracker.Contract.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Contract/obj/Debug/net5.0/EmployeeTracker.Contract.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EmployeeTracker.Contract/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Contract/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.Core/Entities/Employee.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Core/Entities/Employee.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.Core/bin/Debug/net5.0/EmployeeTracker.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Core/bin/Debug/net5.0/EmployeeTracker.Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.Core/bin/Debug/net5.0/EmployeeTracker.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Core/bin/Debug/net5.0/EmployeeTracker.Core.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.Core/bin/Debug/net5.0/ref/EmployeeTracker.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Core/bin/Debug/net5.0/ref/EmployeeTracker.Core.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EmployeeTracker.Core/obj/Debug/net5.0/EmployeeTracker.Core.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Core/obj/Debug/net5.0/EmployeeTracker.Core.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.Core/obj/Debug/net5.0/EmployeeTracker.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Core/obj/Debug/net5.0/EmployeeTracker.Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.Core/obj/Debug/net5.0/EmployeeTracker.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Core/obj/Debug/net5.0/EmployeeTracker.Core.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.Core/obj/Debug/net5.0/ref/EmployeeTracker.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Core/obj/Debug/net5.0/ref/EmployeeTracker.Core.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EmployeeTracker.Core/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Core/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.Domain/EmployeeTracker.Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Domain/EmployeeTracker.Domain.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.Domain/bin/Debug/net5.0/EmployeeTracker.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Domain/bin/Debug/net5.0/EmployeeTracker.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.Domain/bin/Debug/net5.0/EmployeeTracker.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Domain/bin/Debug/net5.0/EmployeeTracker.Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.Domain/bin/Debug/net5.0/EmployeeTracker.Infrastructure.Abstractions.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Domain/bin/Debug/net5.0/EmployeeTracker.Infrastructure.Abstractions.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.Domain/bin/Debug/net5.0/EmployeeTracker.Infrastructure.Abstractions.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Domain/bin/Debug/net5.0/EmployeeTracker.Infrastructure.Abstractions.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.Domain/bin/Debug/net5.0/ref/EmployeeTracker.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Domain/bin/Debug/net5.0/ref/EmployeeTracker.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.Domain/obj/Debug/net5.0/EmployeeTracker.Domain.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Domain/obj/Debug/net5.0/EmployeeTracker.Domain.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EmployeeTracker.Domain/obj/Debug/net5.0/EmployeeTracker.Domain.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Domain/obj/Debug/net5.0/EmployeeTracker.Domain.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.Domain/obj/Debug/net5.0/EmployeeTracker.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Domain/obj/Debug/net5.0/EmployeeTracker.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.Domain/obj/Debug/net5.0/EmployeeTracker.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Domain/obj/Debug/net5.0/EmployeeTracker.Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.Domain/obj/Debug/net5.0/ref/EmployeeTracker.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Domain/obj/Debug/net5.0/ref/EmployeeTracker.Domain.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EmployeeTracker.Domain/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Domain/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.Infrastructure.Abstractions/bin/Debug/netstandard2.1/EmployeeTracker.Infrastructure.Abstractions.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Infrastructure.Abstractions/bin/Debug/netstandard2.1/EmployeeTracker.Infrastructure.Abstractions.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.Infrastructure.Abstractions/bin/Debug/netstandard2.1/EmployeeTracker.Infrastructure.Abstractions.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Infrastructure.Abstractions/bin/Debug/netstandard2.1/EmployeeTracker.Infrastructure.Abstractions.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.Infrastructure.Abstractions/obj/Debug/netstandard2.1/EmployeeTracker.Infrastructure.Abstractions.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Infrastructure.Abstractions/obj/Debug/netstandard2.1/EmployeeTracker.Infrastructure.Abstractions.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EmployeeTracker.Infrastructure.Abstractions/obj/Debug/netstandard2.1/EmployeeTracker.Infrastructure.Abstractions.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Infrastructure.Abstractions/obj/Debug/netstandard2.1/EmployeeTracker.Infrastructure.Abstractions.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.Infrastructure.Abstractions/obj/Debug/netstandard2.1/EmployeeTracker.Infrastructure.Abstractions.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Infrastructure.Abstractions/obj/Debug/netstandard2.1/EmployeeTracker.Infrastructure.Abstractions.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.Infrastructure.Abstractions/obj/Debug/netstandard2.1/EmployeeTracker.Infrastructure.Abstractions.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Infrastructure.Abstractions/obj/Debug/netstandard2.1/EmployeeTracker.Infrastructure.Abstractions.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EmployeeTracker.Infrastructure.Abstractions/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Infrastructure.Abstractions/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.Infrastructure/EmployeeTracker.Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Infrastructure/EmployeeTracker.Infrastructure.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.Infrastructure/Migrations/EmployeeTrackerDbContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Infrastructure/Migrations/EmployeeTrackerDbContextModelSnapshot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.Infrastructure/bin/Debug/net5.0/EmployeeTracker.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Infrastructure/bin/Debug/net5.0/EmployeeTracker.Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.Infrastructure/bin/Debug/net5.0/EmployeeTracker.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Infrastructure/bin/Debug/net5.0/EmployeeTracker.Core.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.Infrastructure/bin/Debug/net5.0/EmployeeTracker.Infrastructure.Abstractions.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Infrastructure/bin/Debug/net5.0/EmployeeTracker.Infrastructure.Abstractions.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.Infrastructure/bin/Debug/net5.0/EmployeeTracker.Infrastructure.Abstractions.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Infrastructure/bin/Debug/net5.0/EmployeeTracker.Infrastructure.Abstractions.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.Infrastructure/bin/Debug/net5.0/EmployeeTracker.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Infrastructure/bin/Debug/net5.0/EmployeeTracker.Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.Infrastructure/bin/Debug/net5.0/EmployeeTracker.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Infrastructure/bin/Debug/net5.0/EmployeeTracker.Infrastructure.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.Infrastructure/bin/Debug/net5.0/ref/EmployeeTracker.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Infrastructure/bin/Debug/net5.0/ref/EmployeeTracker.Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.Infrastructure/obj/Debug/net5.0/EmployeeTracker.Infrastructure.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Infrastructure/obj/Debug/net5.0/EmployeeTracker.Infrastructure.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.Infrastructure/obj/Debug/net5.0/EmployeeTracker.Infrastructure.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Infrastructure/obj/Debug/net5.0/EmployeeTracker.Infrastructure.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EmployeeTracker.Infrastructure/obj/Debug/net5.0/EmployeeTracker.Infrastructure.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Infrastructure/obj/Debug/net5.0/EmployeeTracker.Infrastructure.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.Infrastructure/obj/Debug/net5.0/EmployeeTracker.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Infrastructure/obj/Debug/net5.0/EmployeeTracker.Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.Infrastructure/obj/Debug/net5.0/EmployeeTracker.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Infrastructure/obj/Debug/net5.0/EmployeeTracker.Infrastructure.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.Infrastructure/obj/Debug/net5.0/ref/EmployeeTracker.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Infrastructure/obj/Debug/net5.0/ref/EmployeeTracker.Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.Infrastructure/obj/EmployeeTracker.Infrastructure.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Infrastructure/obj/EmployeeTracker.Infrastructure.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.Infrastructure/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Infrastructure/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.Infrastructure/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Infrastructure/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.Infrastructure/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Infrastructure/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EmployeeTracker.Infrastructure/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Infrastructure/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeTracker.Logger/EmployeeTracker.Logger.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Logger/EmployeeTracker.Logger.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeTracker.Logger/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Logger/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeTracker.Logger/obj/Debug/net5.0/EmployeeTracker.Logger.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Logger/obj/Debug/net5.0/EmployeeTracker.Logger.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeTracker.Logger/obj/Debug/net5.0/EmployeeTracker.Logger.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Logger/obj/Debug/net5.0/EmployeeTracker.Logger.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeTracker.Logger/obj/Debug/net5.0/EmployeeTracker.Logger.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Logger/obj/Debug/net5.0/EmployeeTracker.Logger.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeTracker.Logger/obj/EmployeeTracker.Logger.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Logger/obj/EmployeeTracker.Logger.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeTracker.Logger/obj/EmployeeTracker.Logger.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Logger/obj/EmployeeTracker.Logger.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeTracker.Logger/obj/EmployeeTracker.Logger.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Logger/obj/EmployeeTracker.Logger.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeTracker.Logger/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Logger/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeTracker.Logger/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Logger/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeTracker.Logger/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Logger/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTracker.Logger/obj/Debug/net5.0/EmployeeTracker.Logger.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Logger/obj/Debug/net5.0/EmployeeTracker.Logger.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EmployeeTracker.Logger/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.Logger/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeTracker.sln" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeTracker.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +211,9 @@
       <updated>1628337785199</updated>
       <workItem from="1628337797781" duration="325000" />
       <workItem from="1628338599308" duration="4566000" />
-      <workItem from="1628424656226" duration="4482000" />
+      <workItem from="1628424656226" duration="4489000" />
+      <workItem from="1628491910167" duration="1285000" />
+      <workItem from="1628536716965" duration="5432000" />
     </task>
     <servers />
   </component>
@@ -208,24 +237,5 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/EmployeeTracker.Infrastructure/Services/AuthenticationService.cs</url>
-          <line>37</line>
-          <properties documentPath="C:\RiderProjects\EmployeeTracker\EmployeeTracker.Infrastructure\Services\AuthenticationService.cs" initialLine="37" containingFunctionPresentation="method 'Register'">
-            <startOffsets>
-              <option value="1123" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1124" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
